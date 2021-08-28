@@ -143,9 +143,9 @@ export default class PathfindingVisualizer extends Component {
     this.setState({ Grid });
   };
 
-  // handleMouseDown = (row, col) => {};
-  // handleMouseEnter = (row, col) => {};
-  // handleMouseUp = () => {};
+  handleMouseDown = (row, col) => {};
+  handleMouseEnter = (row, col) => {};
+  handleMouseUp = () => {};
 
   render() {
     const { Grid } = this.state;
