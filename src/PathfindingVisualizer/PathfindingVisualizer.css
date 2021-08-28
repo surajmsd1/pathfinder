@@ -1,0 +1,29 @@
+.Grid {
+  /* margin-left: 15%;
+  margin-top: 13%; */
+  display: flex left;
+}
+div {
+  height: 15px;
+}
+* {
+  background-color: black;
+}
+.dark {
+  color: white;
+}
+.navBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+}
+.wholeComponent {
+  display: grid;
+  /* outline: 5px solid white; */
+}

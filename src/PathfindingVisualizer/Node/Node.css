@@ -1,0 +1,27 @@
+.Node {
+  height: 15px;
+  width: 15px;
+  outline: 1px solid lightBlue;
+  display: inline-block;
+}
+
+.node-finish {
+  background-color: red;
+}
+
+.node-start {
+  background-color: blue;
+}
+
+.node-visited {
+  background-color: white;
+}
+.isWall {
+  background-color: brown;
+}
+.node-shortestPath {
+  background-color: gold;
+}
+.node-current {
+  background-color: yellow;
+}
